@@ -1,1 +1,5 @@
 ---- Tên ---- Tên Chức Năng ---- Ngày sửa
+
+
+Hình: Trang-tenHinh
+      Home-HinhMenu
