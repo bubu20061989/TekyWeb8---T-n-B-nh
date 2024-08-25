@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "DM Sans", serif;
+    color: #F9F9F7;
+
+}
+
+.row{
+background-color: #474747;
+display: flex;
+}
