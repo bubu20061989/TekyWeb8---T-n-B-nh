@@ -1,0 +1,17 @@
+.container-blog .align-items-center {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+*{
+    
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+}
