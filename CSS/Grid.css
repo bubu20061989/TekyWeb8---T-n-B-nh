@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+}
+
+.container .hack1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.container .paragraph_1{
+    font-size: 18px;
+    text-align: center;
+}
+
