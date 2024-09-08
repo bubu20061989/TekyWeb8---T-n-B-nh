@@ -1,0 +1,60 @@
+{
+    "OUT MENU": [
+        {
+            "image":"",
+            "mon_hang":"Fried eggs",
+            "gia":"$ 9.99",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Hawaiian Pizza",
+            "gia":"$ 15.99",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Martinez Cocktail",
+            "gia":"$ 7.25",
+            "loai":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients"
+        },
+        {
+            "image":"",
+            "mon_hang":"Butterscotch Cake",
+            "gia":"$ 20.99",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Mint Lemonade",
+            "gia":"$ 5.89",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Chocolate Icecream",
+            "gia":"$ 18.05",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Cheese Burger",
+            "gia":"$ 12.55",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        },
+        {
+            "image":"",
+            "mon_hang":"Classic Waffles",
+            "gia":"$ 12.99",
+            "so_luong":"",
+            "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
+        }
+    ]
+}
