@@ -1,5 +1,9 @@
 ---- Tên ---- Tên Chức Năng ---- Ngày sửa
+<<<<<<< Updated upstream
 
 
 Hình: Trang-tenHinh
       Home-HinhMenu
+=======
+---- danh ----- font chũ ----- 7h3'  25/8
+>>>>>>> Stashed changes
