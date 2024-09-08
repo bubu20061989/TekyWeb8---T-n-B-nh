@@ -1,0 +1,26 @@
+{
+    "hang_hoa": [
+      {
+        "ma_hang": "HH001",
+        "ten_hang": "Áo thun",
+        "gia": 150000,
+        "so_luong": 50,
+        "mo_ta": "Áo thun cotton cao cấp, thoáng mát."
+      },
+      {
+        "ma_hang": "HH002",
+        "ten_hang": "Quần jeans",
+        "gia": 300000,
+        "so_luong": 30,
+        "mo_ta": "Quần jeans phong cách trẻ trung, bền đẹp."
+      },
+      {
+        "ma_hang": "HH003",
+        "ten_hang": "Giày thể thao",
+        "gia": 500000,
+        "so_luong": 20,
+        "mo_ta": "Giày thể thao chất lượng cao, êm ái."
+      }
+    ]
+}
+  

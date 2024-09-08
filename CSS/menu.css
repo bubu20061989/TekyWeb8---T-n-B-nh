@@ -8,6 +8,10 @@
 .menu a{
     margin-left: 60px;
 }
+
+.container-fluid{
+    padding: 26px 40px !important;
+}
 .container-fluid .book{
     background-color: gainsboro;
     color: black;
@@ -15,6 +19,9 @@
     text-decoration: none;
     border-radius: 50px;
 
+}
+.container-fluid img{
+    width: 70%;
 }
 
 
