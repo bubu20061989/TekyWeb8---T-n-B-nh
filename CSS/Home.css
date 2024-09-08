@@ -14,3 +14,36 @@
     align-items: center;
     flex-direction: column;
 }
+
+.container h2 {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 96px;
+
+}
+
+.container p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.container .btn-container{
+    margin-top: 20px;
+}
+
+.container .btn-container .btn1 {
+    border-radius: 20px;
+    background-color: #AD343E;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    border-color: #AD343E;
+} 
+
+.container .btn-container .btn2{
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-color: black;
+}
