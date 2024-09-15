@@ -20,8 +20,8 @@ h1{
 
 }
 
-image{
-    width: 200px;
+.container-blog img{
+    width: 1500px;
     align-items: center;
     justify-content:center;
 }
@@ -36,7 +36,7 @@ image{
 }
 
 
-.container-blogundies{
+.container-blog-one{
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,3 +44,21 @@ image{
     flex-direction: column;
     padding: 50px 10%;
 }
+
+
+.container-blog-two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+.container-blog-tree img{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
