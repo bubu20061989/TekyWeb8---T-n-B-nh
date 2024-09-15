@@ -41,6 +41,8 @@
 }
 
 .full-width-input .input-group {
+    display: flex !important;
+    flex-direction: column !important;
     width: 100%;
 }
 
