@@ -1,10 +1,13 @@
-
-
 *{
     
     align-items: center;
     justify-content:center;
     text-decoration: none;
+    font-family: "DM Sans", serif !important;
+}
+
+.container-blog{
+    margin-top: 50px;
 }
 
 .container-blog .align-items-center {
@@ -17,11 +20,20 @@
     flex-direction: column;
 
 }
+.container{
+    margin-top: 50px;
+}
+
+.container .row {
+    gap: 20px !important;
+}
 
 .container .row .col{
     display: flex;
     flex-direction: column;
     max-width: 330px;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 
@@ -44,9 +56,9 @@
     padding: 26px 40px !important;
 }
 .container-fluid .book{
-    background-color: gainsboro;
+    background-color: white !important;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 20px !important;
     text-decoration: none;
     border-radius: 50px;
 
@@ -55,6 +67,10 @@
     width: 70%;
 }
 
+.nav-link{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
 
 .divphuj{   
     display: flex;
