@@ -8,50 +8,96 @@
     <link rel="stylesheet" href="../CSS/ourblognarticle.css">
 </head>
 <body>
-  <div class="container-blog">
-    <div class="align-items-center">
-      <h1>Our Blog & Article</h1>
-      
-      <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
 
+
+<!-- 
+  <div class="container text-center">
+    <div class="row row-cols-2">
+
+      <div class="col">
+        <img src="/images/glutenfreeshushi.png" alt="">
+        <span>Jan 3 2023</span>
+        <h3>How to prepare gluten free shushi</h3>
+      </div>
+
+      <div class="col">
+        <img src="/images/ferfectfries.png" alt="">
+        <span>Mar 3 2023</span>
+        <h3>How to prepare perfect french fries</h3>
+      </div>
+
+
+      <div class="col">
+        <img src="/images/deliciouschickentender.png" alt="">
+        <span>Mar 3 2034</span>
+        <h3>How to prepare delicious chicken tender</h3>
+      </div>
+
+
+      <div class="col">
+        <img src="/images/cheesecake.png" alt="">
+        <span>Oct 2 2020</span>
+        <h3>How to prepare delicious cheese cake</h3>
+      </div>
+
+
+
+      
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../images/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="menu">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              <a class="nav-link active" aria-current="page" href="#">Pages</a>
+              <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+          </div>
+          <button class="book">Book a table</button>
+      </div>
+      
+    </nav>
+
+    <div class="container-blog">
+      <div class="align-items-center">
+        <h1>Our Blog & Article</h1>
+        
+        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+  
+      </div>
     </div>
-  </div>
+
 
 
     <div class="container text-center">
-      <div class="row row-cols-2">
-
-        <div class="col">
-          <img src="/images/glutenfreeshushi.png" alt="">
-          <span>Jan 3 2023</span>
-          <h3>How to prepare gluten free shushi</h3>
-        </div>
-
-        <div class="col">
-          <img src="/images/ferfectfries.png" alt="">
-          <span>Mar 3 2023</span>
-          <h3>How to prepare perfect french fries</h3>
-        </div>
-
-
-        <div class="col">
-          <img src="/images/deliciouschickentender.png" alt="">
-          <span>Mar 3 2034</span>
-          <h3>How to prepare delicious chicken tender</h3>
-        </div>
-
-
-        <div class="col">
-          <img src="/images/cheesecake.png" alt="">
-          <span>Oct 2 2020</span>
-          <h3>How to prepare delicious cheese cake</h3>
-        </div>
-
-
-
-        
+      <div class="row row-cols-2" id="gallery">
+        <!-- Content will be injected here -->
       </div>
     </div>
+    <script>
+      fetch('../data/productOur.json')
+        .then(response => response.json())
+        .then(data => {
+          const gallery = document.getElementById('gallery');
+          data.forEach(item => {
+            const col = document.createElement('div');
+            col.classList.add('col');
+            col.innerHTML = `
+              <img src="${item.image}" alt="">
+              <span>${item.date}</span>
+              <h3>${item.title}</h3>
+            `;
+            gallery.appendChild(col);
+          });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+    </script>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
