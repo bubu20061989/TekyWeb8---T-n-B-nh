@@ -8,8 +8,9 @@
 .container{
     justify-content: center;
     align-items: center;
-    width: 100%; */
+    width: 100%;
 }
+
 
 .container .hack1 .ourmenu {
     font-size: 100px;
@@ -20,13 +21,20 @@
     font-size: 18;
     text-align: center;
 }
-
-.container .buttons .buton{
-    border-radius: 8px;
-    width: 120px;
-    height: 40px;
+.container .container-buttons {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+.container .buttons .buton{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    
+}
 
-
+.col {
+    
+}
