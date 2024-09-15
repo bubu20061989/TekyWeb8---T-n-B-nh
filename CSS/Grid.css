@@ -5,13 +5,36 @@
     font-family: "Playfair Display", serif;
 }
 
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-.container .hack1{
+
+.container .hack1 .ourmenu {
+    font-size: 100px;
     text-align: center;
 }
 
-.container .paragraph_1{
-    font-size: 18px;
+.container .hack1 .para1{
+    font-size: 18;
     text-align: center;
 }
+.container .container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container .buttons .buton{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    
+}
+
+.col {
+    
+}

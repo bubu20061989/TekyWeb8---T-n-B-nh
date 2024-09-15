@@ -10,11 +10,6 @@
       "title": "How to prepare perfect french fries"
     },
     {
-      "image": "/images/deliciouschickentender.png",
-      "date": "Mar 3 2034",
-      "title": "How to prepare delicious chicken tender"
-    },
-    {
       "image": "/images/cheesecake.png",
       "date": "Oct 2 2020",
       "title": "How to prepare delicious cheese cake"
@@ -23,6 +18,16 @@
         "image": "/images/cheesecake.png",
         "date": "Oct 2 2020",
         "title": "How to prepare delicious cheese cake"
+      },
+      {
+        "image": "/images/ferfectfries.png",
+        "date": "Mar 3 2023",
+        "title": "How to prepare perfect french fries"
+      },
+      {
+        "image": "/images/ferfectfries.png",
+        "date": "Mar 3 2023",
+        "title": "How to prepare perfect french fries"
       }
   ]
   
