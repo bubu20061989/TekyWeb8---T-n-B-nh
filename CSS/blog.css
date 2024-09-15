@@ -1,0 +1,46 @@
+*{
+    
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    font-size:x-large;
+}
+body{
+    background-color: red;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+image{
+    width: 200px;
+    align-items: center;
+    justify-content:center;
+}
+
+.container-blog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+
+.container-blogundies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
