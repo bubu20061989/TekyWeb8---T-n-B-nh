@@ -1,18 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     text-decoration: none;
     font-family: "Playfair Display", serif;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
     background-image: url(../images/Home-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100% !important;
+    max-width: 100vh !important;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
 }
 
 .container h2 {
@@ -47,3 +51,59 @@
     padding: 10px 20px;
     border-color: black;
 }
+
+.menu {
+    display: flex;
+    justify-content: center; /* Canh giữa */
+    align-items: center;
+    gap: 30px; /* Tạo khoảng cách giữa các liên kết */
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    padding: 0; /* Loại bỏ padding nếu có */
+    margin: 0; /* Loại bỏ margin nếu có */
+}
+
+.container-fluid{
+    padding: 26px 40px !important;
+}
+.container-fluid .book{
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+.container-fluid img{
+    width: 70%;
+}
+
+
+.divphuj{   
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divphuj .baodiv .icons a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.divphuj .baodiv .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.divphuj .baodiv{
+    text-align: center;
+}
+
