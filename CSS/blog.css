@@ -1,0 +1,64 @@
+*{
+    
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    font-size:x-large;
+}
+body{
+    background-color: red;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-blog img{
+    width: 1500px;
+    align-items: center;
+    justify-content:center;
+}
+
+.container-blog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+
+.container-blog-one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+
+.container-blog-two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+.container-blog-tree img{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
