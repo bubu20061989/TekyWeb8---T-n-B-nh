@@ -17,9 +17,11 @@ function a(){
     
     if (dt < 0) {
         console.log('vo nghiem')
+        alert('vô nghiệm')
     if (dt >0){
         console.log((-bi + Math.sqrt(dt)/2*ay));
         console.log((-bi - Math.sqrt(dt)/2*ay));
+        
 
 
     }
