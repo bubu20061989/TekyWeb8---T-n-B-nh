@@ -1,55 +1,10 @@
-/* contact.css */
-
-* {
-    margin: 0;
-    padding: 0;
+*{
+    
+    align-items: center;
+    justify-content:center;
     text-decoration: none;
     font-family: "DM Sans", serif !important;
 }
-
-.container {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.container h2 {
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 96px;
-}
-
-.container p {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-}
-
-.container .form-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.container .form-contact .mb-3 {
-    margin-right: 20px;
-    width: 48%;
-}
-
-.full-width-input .input-group {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100%;
-}
-
-.full-width-input .form-control {
-    width: 100%;
-}
-
 
 .menu {
     display: flex;
@@ -105,3 +60,64 @@
 .divphuj .baodiv{
     text-align: center;
 }
+body{
+    background-color: red;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-blog img{
+    width: 1500px;
+    align-items: center;
+    justify-content:center;
+}
+
+.container-blog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+
+.container-blog-one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+
+.container-blog-two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+.container-blog-tree img{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+
+
