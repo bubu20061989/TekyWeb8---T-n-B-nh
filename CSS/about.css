@@ -1,5 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container-about{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-about .container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
 }
