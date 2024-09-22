@@ -15,4 +15,4 @@ function commit(){
         "<p><strong>Email:</strong> " + b + "</p>" +
         "<p><strong>Subject:</strong> " + c + "</p>" +
         "<p><strong>Message:</strong> " + d + "</p>";
-}
+} 
