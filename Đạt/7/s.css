@@ -1,0 +1,29 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.khungchat{
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.username{
+    margin-bottom: auto;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black
+}
+
+.settings{
+    margin-left: auto;
+}
