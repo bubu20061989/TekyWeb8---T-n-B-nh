@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #1c1e53;
+}
+
+.navbar a{
+    color: #ffff;
+}
+
+.navbar .menu a{
+    margin-right: 20px;
+}
+
+.navbar .menu .nut{
+    padding: 15px 30px;
+    border-radius: 41px;
+}
+
+.home{
+    padding: 150px  ;
+    background-color: #1c1e53;
+    color: #ffff;
+}
+
+.home .homesub1{
+    font-size: 25px;
+
+}
