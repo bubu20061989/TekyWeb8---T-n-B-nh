@@ -3,7 +3,62 @@
     align-items: center;
     justify-content:center;
     text-decoration: none;
-    font-size:x-large;
+    font-family: "DM Sans", serif !important;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Canh giữa */
+    align-items: center;
+    gap: 30px; /* Tạo khoảng cách giữa các liên kết */
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid{
+    padding: 26px 40px !important;
+}
+.container-fluid .book{
+    background-color: white !important;
+    color: black;
+    padding: 10px 20px !important;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+.container-fluid img{
+    width: 70%;
+}
+
+.nav-link{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.divphuj{   
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divphuj .baodiv .icons a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.divphuj .baodiv .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.divphuj .baodiv{
+    text-align: center;
 }
 body{
     background-color: red;
@@ -61,4 +116,8 @@ h1{
     align-items: center;
     justify-content:center;
 }
+
+
+
+
 

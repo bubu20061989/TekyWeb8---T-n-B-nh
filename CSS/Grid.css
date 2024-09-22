@@ -1,14 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    font-family: "Playfair Display", serif;
+    text-decoration: none !important;
+    font-family: "DM Sans", serif !important;
 }
 
 .container{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -33,6 +34,38 @@
     height: 40px;
     margin-left: 20px;
     
+}
+.col {
+    margin-bottom: 20px; /* Add some space between columns */
+}
+
+.col img {
+    width: 100%; /* Ensure images fit the column width */
+    height: auto;
+}
+
+.order-button {
+    background-color: #f8b400; /* Customize button color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #c87f00; /* Darker color on hover */
+}
+.menu {
+    display: flex;
+    justify-content: center; /* Canh giữa */
+    align-items: center;
+    gap: 30px; /* Tạo khoảng cách giữa các liên kết */
+    margin: 0;
+    padding: 0;
 }
 
 

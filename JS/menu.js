@@ -10,6 +10,7 @@ fetch('../data/product2.json')
                 <h2>"${item.gia}"</h2>
                 <h2>"${item.mon_hang}"</h2>
                 <p>"${item.thong_tin}"</p>
+                <button class="order-button">Order Now</button> <!-- New button added here -->
             `;
             gallery.appendChild(col);
           });
