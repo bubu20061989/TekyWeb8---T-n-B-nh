@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "image":"../images/1.png",
         "mon_hang":"Fried eggs",
         "gia":"$ 9.99",
@@ -7,6 +8,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":2,
         "image":"../images/2.png",
         "mon_hang":"Hawaiian Pizza",
         "gia":"$ 15.99",
@@ -14,6 +16,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":3,
         "image":"../images/2.png",
         "mon_hang":"Martinez Cocktail",
         "gia":"$ 7.25",
@@ -21,6 +24,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients"
     },
     {
+        "id":4,
         "image":"../images/4.png",
         "mon_hang":"Butterscotch Cake",
         "gia":"$ 20.99",
@@ -28,6 +32,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":5,
         "image":"../images/6.png",
         "mon_hang":"Mint Lemonade",
         "gia":"$ 5.89",
@@ -35,6 +40,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":6,
         "image":"../images/5.png",
         "mon_hang":"Chocolate",
         "gia":"$ 18.05",
@@ -42,6 +48,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":7,
         "image":"../images/4.png",
         "mon_hang":"Cheese Burger",
         "gia":"$ 12.55",
@@ -49,6 +56,7 @@
         "thong_tin":"Made with eggs, lettuce, salt, oil and other ingredients."
     },
     {
+        "id":8,
         "image":"../images/3.png",
         "mon_hang":"Classic Waffles",
         "gia":"$ 12.99",
