@@ -75,7 +75,141 @@
 
 
 
+.cart-icon {
+    /* position: fixed;
+    top: 20px;
+    right: 20px; */
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+.cart-icon:hover {
+    background-color: #e2e6ea;
+}
+
+.cart-icon .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-weight: bold;
+}
+
+/* Icon giỏ hàng */
+/* Icon giỏ hàng */
+.cart-icon {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-icon:hover {
+    background-color: #e2e6ea;
+}
+
+.cart-icon .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-weight: bold;
+}
+
+.cart-container {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.cart-container.hidden {
+    display: none;
+}
+
+.cart-container.visible {
+    display: block;
+}
+
+.cart-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.cart-container .cart{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.cart-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cart-container .cart-item h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.cart-container .cart-item p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.cart-container .remove-item {
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cart-container .remove-item:hover {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.cart-container .total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+    color: #333;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
 
 
 
